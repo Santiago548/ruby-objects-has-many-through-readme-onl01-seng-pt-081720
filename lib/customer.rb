@@ -28,5 +28,6 @@ class Customer
     Waiter.all.select do |waiter|
     waiter.meal == self
   end
+end
 
 end
